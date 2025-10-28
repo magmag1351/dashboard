@@ -2,22 +2,22 @@ import type { User } from '~/types'
 
 const customers: User[] = [{
   id: 1,
-  name: 'Alex Smith',
-  email: 'alex.smith@example.com',
+  name: 'Yoshimi Hatsukade',
+  email: 'yoshimi.hatsukade@example.com',
   avatar: {
-    src: 'https://i.pravatar.cc/128?u=1'
+    src: ''
   },
-  status: 'subscribed',
-  location: 'New York, USA'
+  status: 'online',
+  grade: 'Owner'
 }, {
   id: 2,
-  name: 'Jordan Brown',
-  email: 'jordan.brown@example.com',
+  name: 'Kenta Uesugi',
+  email: 'kenta.uesugi@example.com',
   avatar: {
-    src: 'https://i.pravatar.cc/128?u=2'
+    src: ''
   },
-  status: 'unsubscribed',
-  location: 'London, UK'
+  status: 'offline',
+  grade: 'M1'
 }]
 
 export default eventHandler(async () => {
