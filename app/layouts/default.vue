@@ -22,7 +22,7 @@ const links = [[{
     open.value = false
   }
 }, {
-  label: 'Customers',
+  label: 'Students',
   icon: 'i-lucide-users',
   to: '/customers',
   onSelect: () => {
