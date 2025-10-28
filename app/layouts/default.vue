@@ -17,14 +17,13 @@ const links = [[{
   label: 'Inbox',
   icon: 'i-lucide-inbox',
   to: '/inbox',
-  badge: '4',
   onSelect: () => {
     open.value = false
   }
 }, {
   label: 'Students',
   icon: 'i-lucide-users',
-  to: '/customers',
+  to: '/students',
   onSelect: () => {
     open.value = false
   }

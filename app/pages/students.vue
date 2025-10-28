@@ -21,7 +21,7 @@ const columnFilters = ref([{
 const columnVisibility = ref()
 const rowSelection = ref({ 1: true })
 
-const { data, status } = await useFetch<User[]>('/api/customers', {
+const { data, status } = await useFetch<User[]>('/api/students', {
   lazy: true
 })
 
@@ -198,9 +198,9 @@ const pagination = ref({
 </script>
 
 <template>
-  <UDashboardPanel id="customers">
+  <UDashboardPanel id="students">
     <template #header>
-      <UDashboardNavbar title="Customers">
+      <UDashboardNavbar title="Students">
         <template #leading>
           <UDashboardSidebarCollapse />
         </template>
